@@ -49,7 +49,7 @@ export default function LoginPage() {
           </p>
           <div className="mt-6 rounded-3xl border border-white/10 bg-white/5 p-5 text-sm text-slate-300">
             <p className="font-semibold text-white">Akun untuk login</p>
-            <p className="mt-2">Isi email & password dari environment <span className="font-mono">FARMONITOR_ADMIN_EMAIL</span> dan <span className="font-mono">FARMONITOR_ADMIN_PASSWORD</span>.</p>
+            <p className="mt-2">Isi email & password dari akun admin yang disediakan di environment deployment.</p>
           </div>
 
         </div>

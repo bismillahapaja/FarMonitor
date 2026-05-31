@@ -8,7 +8,7 @@ import type { SessionPayload } from './types';
 const COOKIE_NAME = 'farmonitor_session';
 
 function secret() {
-  return process.env.FARMONITOR_SESSION_SECRET || 'farmonitor-demo-secret';
+  return process.env.FARMONITOR_SESSION_SECRET || '';
 }
 
 function toBase64Url(bytes: Uint8Array) {
