@@ -63,7 +63,7 @@ export default function LoginPage() {
               onChange={(e) => setEmail(e.target.value)}
               type="email"
               required
-              placeholder="admin@farmonitor.test"
+              placeholder="input email"
             />
           </label>
 
